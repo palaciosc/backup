@@ -1,0 +1,37 @@
+servers de extraccion:
+    unisuper: sftp://ubuntu@ec2-50-112-59-113.us-west-2.compute.amazonaws.com/home/ubuntu
+    kad, cew: sftp://ubuntu@ec2-35-166-202-166.us-west-2.compute.amazonaws.com/home/ubuntu
+    diunsa:   sftp://ubuntu@ec2-52-40-6-113.us-west-2.compute.amazonaws.com/home/ubuntu
+
+
+aws    
+    access key id: AKIAI5VJSAM26UOAYTRQ
+    secret access key: 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
+
+    redshift:
+
+        erea-dw
+            Endpoint: erea-dw.c5sehf9ioarh.us-west-2.redshift.amazonaws.com
+            Port: 5439
+        
+            Username: carlospalacios
+            pwd: umV4qvZwTbTf
+        
+            Username: erea_dw_su
+            pwd: 8vU-EBA-Swo-gns
+
+        woody
+            Endpoint: woody.c5sehf9ioarh.us-west-2.redshift.amazonaws.com
+            Port: 5439
+        
+            Username: erea_dw_su
+            pwd: 8vU-EBA-Swo-gns
+
+
+xplenty:
+    api key: CZZxYVV8AiaPqg5jDsH7
+
+
+openFortiGUI:
+    AES KEY: yowp2IwTTRodgdWp
+    AES IV: VoUT5n5ToogkmQU3
